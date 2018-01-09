@@ -333,7 +333,7 @@ We will use:
 
 
 #. Start QGIS as seen in :ref:`label_startingqgis`.
-#. To load the landcover data, click on the |openDataSourceManager| :sup:`Open Data Source Manager` icon.
+#. To load the landcover data, click on the |dataSourceManager| :sup:`Open Data Source Manager` icon.
 #. The Data Source Manager should open in Browser mode.
 #. Browse to the folder :file:`qgis_sample_data/raster/`, select
    the ERDAS IMG file :file:`landcover.img` and double-click to open it. 
@@ -445,7 +445,8 @@ Other ways to produce output files are:
 * Exporting DXF files: :menuselection:`Project --> DXF Export...` opens
   a dialog where you can define the 'Symbology mode', the 'Symbology scale' and
   vector layers you want to export to DXF. Through the 'Symbology mode' symbols
-  from the original QGIS Symbology can be exported with high fidelity.
+  from the original QGIS Symbology can be exported with high fidelity
+  (see section :ref:`create_dxf_files`).
 * Designing print maps: :menuselection:`Project -->` |newComposer|
   :menuselection:`New Print Composer...` opens a dialog where you can layout and
   print the current map canvas (see section :ref:`label_printcomposer`).

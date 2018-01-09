@@ -437,6 +437,8 @@ rst_epilog = """
    :width: 1.5em
 .. |dataDefineOn| image:: /static/common/mIconDataDefineOn.png
    :width: 1.5em
+.. |dataSourceManager| image:: /static/common/mActionDataSourceManager.png
+   :width: 1.5em
 .. |dateEdit|  image:: /static/common/dateedit.png
    :width: 1.5em
 .. |dateTimeEdit|  image:: /static/common/datetimeedit.png
