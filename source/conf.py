@@ -25,7 +25,10 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.imgmath']
+extensions = [
+    'sphinx.ext.imgmath',
+    'sphinx_gallery.gen_gallery',
+]
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -199,6 +202,19 @@ html_show_copyright = False
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
+
+sphinx_gallery_conf = {
+    # path to your examples scripts
+    'examples_dirs': 'docs/pyqgis_developer_cookbook/samples',
+    # path where to save gallery generated examples
+    'gallery_dirs': 'docs/pyqgis_developer_cookbook/gallery/',
+    'backreferences_dir': 'docs/pyqgis_developer_cookbook/samples/backreferences',
+    'plot_gallery': 'False',
+    'download_section_examples': False,
+    # Modules for which function level galleries are created.  In
+    # this case sphinx_gallery and numpy in a tuple of strings.
+    'doc_module': ('qgis'),
+}
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'QGISWebsitedoc'

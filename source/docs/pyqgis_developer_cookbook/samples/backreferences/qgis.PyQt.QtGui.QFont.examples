@@ -1,0 +1,22 @@
+
+
+Examples using ``qgis.PyQt.QtGui.QFont``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This is a CharacterWidget ">
+
+.. only:: html
+
+    .. figure:: /docs/pyqgis_developer_cookbook/gallery/images/thumb/sphx_glr_qgis-sample-CharacterWidget_thumb.png
+
+        :ref:`sphx_glr_docs_pyqgis_developer_cookbook_gallery_qgis-sample-CharacterWidget.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+    * :ref:`sphx_glr_docs_pyqgis_developer_cookbook_gallery_qgis-sample-CharacterWidget.py`
